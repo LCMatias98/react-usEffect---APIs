@@ -1,0 +1,23 @@
+Fiber ---> Algoritmo de Reconciliacion, lo manejo React por detras para que sea predecible y rapido el cambio de un componente
+
+React maneja Arbol de componentes
+algoritmo heuristico  ---> o se renderiza el componente o el atributo de un componente o elemento. Recursion en Hijos
+
+
+CONSULTAR SOBRE KEY
+
+EL ESTADO ES ASINCRONICO
+
+npm i nvm -g
+npm create-react-app -g
+
+create-react-app nombreProyecto
+npm install react-bootstrap
+npm install styled-components
+npm install uuid
+
+funcion asincronica, cargar componente y hacer peticion dentro de la funcion hook de useEffect. remplaza el ciclo de vida
+
+componentDidMount
+componentDidUpdate
+y cuando el componente se destruye
