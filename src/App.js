@@ -1,3 +1,4 @@
+import APICall from './APICall';
 import './App.css';
 import Effect from './Effect';
 import MouseMove from './MouseMove';
@@ -7,6 +8,7 @@ function App() {
     <>
     <MouseMove />
     <Effect />
+    <APICall />
     </>
 
   );

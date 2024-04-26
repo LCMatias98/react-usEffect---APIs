@@ -18,7 +18,7 @@ const Effect = () => {
     },[name]);
 
 //    useEffect(() =>{
-  //      console.log("Etapa de UPDATE")
+  //      console.log("Etapa de UPDATE o todo el tiempo")
   //  });
 
     return(

@@ -20,4 +20,15 @@ funcion asincronica, cargar componente y hacer peticion dentro de la funcion hoo
 
 componentDidMount
 componentDidUpdate
+componentWillUnmount
 y cuando el componente se destruye
+synthetic events in react, no se interactua con el DOM sino que con el DOM Virtual
+
+Que es el segundo parametro de useEffect, Array de Dependencias
+
+
+cuando yo actualizo el estado implica el desmontaje en useEffect, en la etapa de desmontaje limpio el listener
+
+
+Render Strategies (CSR (tti menos tiempo de carga time iteraction),SST, Dinamic Render, Static Render)
+Virtualizacion de listas (Windowing (Interseccion Observer))
