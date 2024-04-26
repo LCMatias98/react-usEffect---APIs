@@ -30,5 +30,14 @@ Que es el segundo parametro de useEffect, Array de Dependencias
 cuando yo actualizo el estado implica el desmontaje en useEffect, en la etapa de desmontaje limpio el listener
 
 
-Render Strategies (CSR (tti menos tiempo de carga time iteraction),SST, Dinamic Render, Static Render)
+Render Strategies (CSR (tti menos tiempo de carga time iteraction),SST, Dinamic Render (identifica la peticion del cliente y da determinado autorizacion y render), Static Render)
 Virtualizacion de listas (Windowing (Interseccion Observer))
+
+
+useLayoutEffect (Sincronico)
+useImperativeHandle && useRef (un hijo ejecuta la accion del padre)
+
+
+CON UN THEN O CALL NO SE RETORNA NADA DE UNA FUNCION
+
+CON ASYNC AWAIT SI SE RETORNA
